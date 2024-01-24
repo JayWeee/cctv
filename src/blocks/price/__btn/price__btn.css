@@ -1,0 +1,16 @@
+.price__btn {
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  width: 180px;
+  height: 48px;
+  background-color: #EE2523;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.4;
+  cursor: pointer;
+  transition: opacity .2s linear;
+}
+
+.price__btn:hover {
+  opacity: .7;
+}

@@ -1,0 +1,7 @@
+.card__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 181px;
+  margin-top: 24px;
+}

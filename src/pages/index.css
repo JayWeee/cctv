@@ -18,3 +18,16 @@
 
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__caption/card__caption.css);
+@import url(../blocks/price/price.css);
+@import url(../blocks/price/__container/price__container.css);
+@import url(../blocks/price/__sum/price__sum.css);
+@import url(../blocks/price/__sum/_small/price__sum_small.css);
+@import url(../blocks/price/__caption/price__caption.css);
+@import url(../blocks/price/__caption/_underline/price__caption_underline.css);
+@import url(../blocks/price/__btn/price__btn.css);
