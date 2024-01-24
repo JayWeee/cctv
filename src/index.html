@@ -1,92 +1,147 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>CCTV</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>CCTV</title>
-</head>
-
-<body class="root">
-  <header class="header container">
-    <img src="./images/logo.svg" alt="Логотип" class="logo">
-    <nav class="navigation">
-      <li class="navigation__item">Интернет</li>
-      <li class="navigation__item">Телевидение</li>
-      <li class="navigation__item">Выгодно</li>
-      <li class="navigation__item">Видеонаблюдение</li>
-      <li class="navigation__item">Оборудование</li>
-      <li class="navigation__item">Информация</li>
-      <li class="navigation__item">Контакты</li>
-    </nav>
-    <a href="tel:+73496458000" class="phone">+7 (3496) 45-80-00</a>
-  </header>
-  <main>
-    <section class="banner">
-      <div class="container">
-        <h1 class="banner__title">Системы видеонаблюдения <br> по отличной цене <br> в Ноябрьске</h1>
-        <button class="banner__bth">Подключить</button>
-      </div>
-    </section>
-    <section class="services container">
-      <h2 class="services__title">Доступные услуги</h2>
-      <div class="cards">
-        <article class="card">
-          <img src="./images/card-img-1.png" alt="Фото товара" class="card__img">
-          <div class="card__description">
-            <div>
-              <h2 class="card__title">Городские камеры</h2>
-              <p class="card__caption">Будьте в курсе всех событий невыходя <br> из дома</p>
-            </div>
-            <div class="price">
-              <div class="price__container">
-                <p class="price__sum">0</p>
-                <p class="price__caption"><span class="price__caption_underline">руб</span><br>мес</p>
+  <body class="root">
+    <header class="header container">
+      <img src="./images/logo.svg" alt="Логотип" class="logo" />
+      <nav class="navigation">
+        <li class="navigation__item">
+          <p class="navigation__title">Интернет</p>
+        </li>
+        <li class="navigation__item">
+          <p class="navigation__title">Телевидение</p>
+        </li>
+        <li class="navigation__item">
+          <p class="navigation__title">Выгодно</p>
+          <ul class="dropdown-list">
+            <li class="dropdown-list__item"><a href="#">Интернет+TV</a></li>
+            <li class="dropdown-list__item">
+              <a href="#">Конструктор тарифа</a>
+            </li>
+          </ul>
+        </li>
+        <li class="navigation__item">
+          <p class="navigation__title">Видеонаблюдение</p>
+        </li>
+        <li class="navigation__item">
+          <p class="navigation__title">Оборудование</p>
+        </li>
+        <li class="navigation__item">
+          <p class="navigation__title">Информация</p>
+          <ul class="dropdown-list">
+            <li class="dropdown-list__item"><a href="#">Новости</a></li>
+            <li class="dropdown-list__item"><a href="#">Вакансии</a></li>
+          </ul>
+        </li>
+        <li class="navigation__item">
+          <p class="navigation__title">Контакты</p>
+        </li>
+      </nav>
+      <a href="tel:+73496458000" class="phone">+7 (3496) 45-80-00</a>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="container">
+          <h1 class="banner__title">
+            Системы видеонаблюдения <br />
+            по отличной цене <br />
+            в Ноябрьске
+          </h1>
+          <button class="banner__bth">Подключить</button>
+        </div>
+      </section>
+      <section class="services container">
+        <h2 class="services__title">Доступные услуги</h2>
+        <div class="cards">
+          <article class="card">
+            <img
+              src="./images/card-img-1.png"
+              alt="Фото товара"
+              class="card__img"
+            />
+            <div class="card__description">
+              <div>
+                <h2 class="card__title">Городские камеры</h2>
+                <p class="card__caption">
+                  Будьте в курсе всех событий невыходя <br />
+                  из дома
+                </p>
               </div>
-              <button class="price__btn">Узнать подробнее</button>
-            </div>
-          </div>
-        </article>
-        <article class="card">
-          <img src="./images/card-img-2.png" alt="Фото товара" class="card__img">
-          <div class="card__description">
-            <div>
-              <h2 class="card__title">Дворовые камеры</h2>
-              <p class="card__caption">Наблюдайте за вашим имуществом не выходя из дома через любое устройство</p>
-            </div>
-            <div class="price">
-              <div class="price__container">
-                <p class="price__sum">0</p>
-                <p class="price__caption"><span class="price__caption_underline">руб</span><br>мес</p>
+              <div class="price">
+                <div class="price__container">
+                  <p class="price__sum">0</p>
+                  <p class="price__caption">
+                    <span class="price__caption_underline">руб</span><br />мес
+                  </p>
+                </div>
+                <button class="price__btn">Узнать подробнее</button>
               </div>
-              <button class="price__btn">Узнать подробнее</button>
             </div>
-          </div>
-        </article>
-        <article class="card">
-          <img src="./images/card-img-3.png" alt="Фото товара" class="card__img">
-          <div class="card__description">
-            <div>
-              <h2 class="card__title">Персональные камеры</h2>
-              <p class="card__caption">Где бы вы ни находились, вы всегда можете узнать о происходящем дома с любого
-                устройства</p>
-            </div>
-            <div class="price">
-              <div class="price__container">
-                <p class="price__sum"><span class="price__sum_small">от</span> 350</p>
-                <p class="price__caption"><span class="price__caption_underline">руб</span><br>мес</p>
+          </article>
+          <article class="card">
+            <img
+              src="./images/card-img-2.png"
+              alt="Фото товара"
+              class="card__img"
+            />
+            <div class="card__description">
+              <div>
+                <h2 class="card__title">Дворовые камеры</h2>
+                <p class="card__caption">
+                  Наблюдайте за вашим имуществом не выходя из дома через любое
+                  устройство
+                </p>
               </div>
-              <button class="price__btn">Узнать подробнее</button>
+              <div class="price">
+                <div class="price__container">
+                  <p class="price__sum">0</p>
+                  <p class="price__caption">
+                    <span class="price__caption_underline">руб</span><br />мес
+                  </p>
+                </div>
+                <button class="price__btn">Узнать подробнее</button>
+              </div>
             </div>
-          </div>
-        </article>
-      </div>
-    </section>
-    <button class="payment-btn">Оплатить услуги
-      <img src="./images/payment-icon.svg" alt="Иконка оплаты">
-    </button>
-  </main>
-</body>
-
+          </article>
+          <article class="card">
+            <img
+              src="./images/card-img-3.png"
+              alt="Фото товара"
+              class="card__img"
+            />
+            <div class="card__description">
+              <div>
+                <h2 class="card__title">Персональные камеры</h2>
+                <p class="card__caption">
+                  Где бы вы ни находились, вы всегда можете узнать о
+                  происходящем дома с любого устройства
+                </p>
+              </div>
+              <div class="price">
+                <div class="price__container">
+                  <p class="price__sum">
+                    <span class="price__sum_small">от</span> 350
+                  </p>
+                  <p class="price__caption">
+                    <span class="price__caption_underline">руб</span><br />мес
+                  </p>
+                </div>
+                <button class="price__btn">Узнать подробнее</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <button class="payment-btn">
+        Оплатить услуги
+        <img src="./images/payment-icon.svg" alt="Иконка оплаты" />
+      </button>
+    </main>
+  </body>
 </html>

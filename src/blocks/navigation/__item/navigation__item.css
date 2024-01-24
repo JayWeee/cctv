@@ -1,8 +1,4 @@
 .navigation__item {
-  cursor: pointer;
-  transition: opacity .2s linear;
-}
-
-.navigation__item:hover {
-  opacity: .7;
+  position: relative;
+  padding: 18px 0 22px;
 }

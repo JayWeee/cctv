@@ -1,0 +1,19 @@
+.dropdown-list__item {
+  border-bottom: 1px solid #E7E7E7;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: opacity .2s linear;
+}
+
+.dropdown-list__item a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-list__item:last-child {
+  border: none;
+}
+
+.dropdown-list__item:hover {
+  opacity: .7;
+}
