@@ -32,7 +32,9 @@
 @import url(../blocks/price/__sum/price__sum.css);
 @import url(../blocks/price/__sum/_small/price__sum_small.css);
 @import url(../blocks/price/__caption/price__caption.css);
-@import url(../blocks/price/__caption/_underline/price__caption_underline.css);
 @import url(../blocks/price/__btn/price__btn.css);
+
+@import url(../blocks/underline/underline.css);
+@import url(../blocks/small-text/small-text.css);
 
 @import url(../blocks/payment-btn/payment-btn.css);
