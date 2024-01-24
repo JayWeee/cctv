@@ -1,0 +1,16 @@
+.banner__bth {
+  width: 290px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #EE2523;
+  color: white;
+  cursor: pointer;
+  margin-top: 40px;
+  padding: 0;
+  transition: opacity .2s linear;
+}
+
+.banner__bth:hover {
+  opacity: .7;
+}

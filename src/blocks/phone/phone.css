@@ -2,4 +2,9 @@
   text-decoration: none;
   font-weight: 600;
   color: #EE2523;
+  transition: opacity .2s linear;
+}
+
+.phone:hover {
+  opacity: .7;
 }
