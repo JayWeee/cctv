@@ -14,3 +14,12 @@
 .banner__bth:hover {
   opacity: .7;
 }
+
+@media screen and (max-width: 768px) {
+  .banner__bth {
+    width: 260px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}

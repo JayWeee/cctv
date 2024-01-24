@@ -4,3 +4,10 @@
   object-fit: cover;
   vertical-align: bottom;
 }
+
+@media screen and (max-width: 768px) {
+  .card__img {
+    width: 274px;
+    height: 180px;
+  }
+}

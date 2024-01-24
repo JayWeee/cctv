@@ -2,3 +2,10 @@
   background: #F8F8F8 url(../../images/bg-img.png) no-repeat right / 804px 412px;
   padding: 64px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .banner {
+    padding: 80px 0;
+    background-position: 276px;
+  }
+}

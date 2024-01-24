@@ -1,3 +1,11 @@
 .small-text {
   font-size: 30px;
+  font-weight: 500;
+  line-height: .8;
+}
+
+@media screen and (max-width: 768px) {
+  .small-text {
+    font-weight: 400;
+  }
 }

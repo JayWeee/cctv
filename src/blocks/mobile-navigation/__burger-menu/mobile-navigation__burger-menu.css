@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+  .mobile-navigation__burger-menu {
+    padding: 0;
+    border: none;
+    background: url(../../../images/menu-icon.svg) no-repeat center / cover;
+    width: 24px;
+    height: 21px;
+    cursor: pointer;
+  }
+}

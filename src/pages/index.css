@@ -15,6 +15,10 @@
 @import url(../blocks/dropdown-list/__item/dropdown-list__item.css);
 @import url(../blocks/phone/phone.css);
 
+@import url(../blocks/mobile-navigation/mobile-navigation.css);
+@import url(../blocks/mobile-navigation/__profile/mobile-navigation__profile.css);
+@import url(../blocks/mobile-navigation/__burger-menu/mobile-navigation__burger-menu.css);
+
 @import url(../blocks/banner/banner.css);
 @import url(../blocks/banner/__title/banner__title.css);
 @import url(../blocks/banner/__btn/banner__bth.css);

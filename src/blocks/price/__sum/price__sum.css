@@ -5,3 +5,11 @@
   line-height: .9;
   letter-spacing: .5px;
 }
+
+@media screen and (max-width: 768px) {
+  .price__sum {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+  }
+}

@@ -8,3 +8,9 @@
 .phone:hover {
   opacity: .7;
 }
+
+@media screen and (max-width: 768px) {
+  .phone {
+    display: none;
+  }
+}

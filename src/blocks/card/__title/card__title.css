@@ -3,3 +3,9 @@
   font-weight: 600;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .card__title {
+    line-height: 1.24;
+  }
+}

@@ -4,3 +4,9 @@
   gap: 36px;
   color: #1F1F1F;
 }
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+}

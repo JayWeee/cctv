@@ -1,0 +1,10 @@
+.mobile-navigation {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-navigation {
+    display: flex;
+    gap: 168px;
+  }
+}
