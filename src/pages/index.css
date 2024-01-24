@@ -15,3 +15,6 @@
 @import url(../blocks/banner/banner.css);
 @import url(../blocks/banner/__title/banner__title.css);
 @import url(../blocks/banner/__btn/banner__bth.css);
+
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__title/services__title.css);
