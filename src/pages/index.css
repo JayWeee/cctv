@@ -31,3 +31,5 @@
 @import url(../blocks/price/__caption/price__caption.css);
 @import url(../blocks/price/__caption/_underline/price__caption_underline.css);
 @import url(../blocks/price/__btn/price__btn.css);
+
+@import url(../blocks/payment-btn/payment-btn.css);
