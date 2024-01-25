@@ -1,15 +1,13 @@
-@media screen and (max-width: 768px) {
-  .mobile-navigation__profile {
-    padding: 0;
-    border: none;
-    background: url(../../../images/user-icon.svg) no-repeat center / cover;
-    width: 23px;
-    height: 21px;
-    cursor: pointer;
-    transition: opacity .2s linear;
-  }
+.mobile-navigation__profile {
+  padding: 0;
+  border: none;
+  background: url(../../../images/user-icon.svg) no-repeat center / cover;
+  width: 23px;
+  height: 21px;
+  cursor: pointer;
+  transition: opacity .2s linear;
+}
 
-  .mobile-navigation__profile:hover {
-    opacity: .7;
-  }
+.mobile-navigation__profile:hover {
+  opacity: .7;
 }

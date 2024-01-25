@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
   .mobile-navigation {
     display: flex;
     max-width: 215px;

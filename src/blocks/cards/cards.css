@@ -5,7 +5,15 @@
   gap: 60px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
+  .cards {
+    margin-top: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(364px, 364px));
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 920px) {
   .cards {
     margin-top: 32px;
     grid-template-columns: repeat(auto-fit, minmax(334px, 334px));
