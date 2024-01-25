@@ -19,6 +19,10 @@
   transition: opacity .2s linear;
 }
 
+.payment-btn::before {
+  content: 'Оплатить услуги';
+}
+
 .payment-btn:hover {
   opacity: .7;
 }
@@ -26,5 +30,17 @@
 @media screen and (max-width: 768px) {
   .payment-btn {
     top: 471px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .payment-btn {
+    width: 145px;
+    height: 54px;
+    gap: 8px;
+  }
+  .payment-btn::before {
+    content: 'Оплатить';
   }
 }

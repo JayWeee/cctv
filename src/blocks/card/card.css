@@ -2,3 +2,9 @@
   padding: 40px 30px;
   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.12);
 }
+
+@media screen and (max-width: 480px) {
+  .card {
+    padding: 40px 35px;
+  }
+}

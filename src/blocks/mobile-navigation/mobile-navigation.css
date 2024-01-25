@@ -5,6 +5,14 @@
 @media screen and (max-width: 768px) {
   .mobile-navigation {
     display: flex;
-    gap: 168px;
+    max-width: 215px;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mobile-navigation {
+    max-width: 118px;
   }
 }

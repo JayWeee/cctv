@@ -6,5 +6,10 @@
     width: 24px;
     height: 21px;
     cursor: pointer;
+    transition: opacity .2s linear;
+  }
+
+  .mobile-navigation__burger-menu:hover {
+    opacity: .7;
   }
 }

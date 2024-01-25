@@ -12,3 +12,10 @@
     gap: 20px;
   } 
 }
+
+@media screen and (max-width: 480px) {
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(390px, 390px));
+    gap: 30px;
+  }
+}

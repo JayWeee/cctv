@@ -3,11 +3,19 @@
   height: 250px;
   object-fit: cover;
   vertical-align: bottom;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
   .card__img {
     width: 274px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card__img {
+    width: 315px;
     height: 180px;
   }
 }

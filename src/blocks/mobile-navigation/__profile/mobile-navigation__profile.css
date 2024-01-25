@@ -6,5 +6,10 @@
     width: 23px;
     height: 21px;
     cursor: pointer;
+    transition: opacity .2s linear;
+  }
+
+  .mobile-navigation__profile:hover {
+    opacity: .7;
   }
 }

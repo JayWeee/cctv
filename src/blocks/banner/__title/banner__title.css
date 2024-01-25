@@ -13,3 +13,11 @@
     max-width: 605px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .banner__title {
+    font-size: 38px;
+    line-height: 1.25;
+    max-width: 392px;
+  }
+}
